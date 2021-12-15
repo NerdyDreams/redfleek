@@ -1,0 +1,316 @@
+body{
+background: #8f0500;
+background-image: url("https://transparenttextures.com/patterns/cubes.png");
+padding: 2% 8.5% 2% 8.5%;
+
+}
+
+/* SCROLL BAR DESIGN */
+body::-webkit-scrollbar,.paragraphs-for-first-grid::-webkit-scrollbar
+{
+    background-color: rgba(255,0,0,1);
+    border-radius:10px;
+}
+body::-webkit-scrollbar-thumb,.paragraphs-for-first-grid::-webkit-scrollbar-thumb
+{
+   background-color:white;
+   width:90%;
+   border:2px solid red;
+   border-radius:10px;
+}
+
+
+
+
+/* FIRST NAVIGATION BAR */
+.custom-nav-1{
+  background-color: #ffcb43;
+  background-image: linear-gradient(319deg, #ffcb43 0%, #ff6425 37%, #ff0016 100%);
+  border-radius:8px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:3px;
+}
+div.logo{
+  height: 100%;
+  width: 40%;
+  margin-top: 0;
+ }
+
+ /* slogan design */
+ .logo p{
+     display: inline;
+     font-family: fantasy;
+     font-size: 2rem;
+      color: white;
+      font-family: 'ParryHotter', cursive;
+      letter-spacing: 4px;
+    
+ }
+ 
+ /* first navigation bar search input design */
+.search-icon{
+  border:none;
+   border-top-right-radius:10px;
+   border-bottom-right-radius:10px;
+   width:35px;
+   outline:none;
+   background:linear-gradient(100deg,rgba(200,0,0,0.8),rgba(150,0,0,0.8));
+   color:white;
+   height:32px;
+}
+.search-input{
+  outline: none;
+  width:250px;
+  border:none;
+  border-radius:10px 0 0 10px ;
+}
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+div.form-linking{
+  text-align:center;
+}
+div.form-linking a.link-to-form
+{
+  color:#fff;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+
+}
+div.form-linking a.link-to-form.login-1
+{
+  padding-right:10px;
+  border-right:1px solid #fff;
+
+}
+div.form-linking a.link-to-form.register-1
+{
+  padding-left:8px;
+
+}
+div.form-linking a.link-to-form:hover
+{
+  text-decoration: underline;
+  color:#0000ff;
+
+}
+
+
+
+
+
+/* SECOND NAVIGATION BAR */
+.nav-menu{
+    background-color: #ffcb43;
+    background-image: linear-gradient(319deg, #ffcb43 0%, #ff6425 37%, #ff0016 100%);
+    margin-top: 40px;  
+}
+.nav-link {
+    margin: 0 60px 0 60px;
+}
+
+.nav-item .nav-link:hover{
+    color: #FFF323;
+}
+
+.nav-item .nav-link {
+    color: white;
+  }
+
+.logo{
+    height: 100%;
+    width: 40%;
+    margin-top: 0;
+}
+
+
+/* SLIDER/CAROUSEL DESIGN */
+.carousel-img{
+    width: 100%;
+    margin-top: 5%;
+  }
+
+.slider-div{
+    margin-bottom: 30px;
+}
+
+
+
+/* STAR RATING COMPONENT DESIGN */
+.container {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+
+
+
+
+
+/* MOVIE REVIEW AND MOVIE NEWS SECTION DESIGN */
+
+/* design in app.js */
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-child-element:first-child {
+    margin-right: 20px;
+  }
+
+/* movie review design (LEFT) */
+  .review-block{
+    border: 1 px solid red;
+    margin: 20px 0 20px 0;
+    width: 100%;
+  }
+  
+.review-img{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+}
+
+.review-entry{
+  margin: 10px 0 10px 0;
+  padding-top: 10px;
+}
+
+input, textarea{
+  border: 1px solid red;
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 100%;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  font-size: 18px;
+  color: black;
+  font-weight: 300;
+}
+
+input:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+textarea:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+.submit-btn{
+  background-color: #ffcb43;
+  background-image: linear-gradient(319deg, #ffcb43 0%, #ff6425 37%, #ff0016 100%);
+  color: #fff;
+  font-weight: bold;
+}
+
+
+
+
+
+/* news block design (RIGHT) */
+
+.news-img-text{
+  display:inline-block;
+}
+
+.news-img{
+  width: 100%;
+  height: 90%;
+}
+
+.news-bg-grey{
+   background-color: #ebecf0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* phone responsiveness for the website*/
+@media only screen and (max-width:935px)
+{
+    
+    .body-margin{
+        margin-top: 12%;
+    }
+
+    .custom-nav-1
+    {
+        display: block;
+    }
+    div.logo
+    {
+        width:100%;
+        text-align: center;
+       }
+       .logo p
+       {
+           display: block;
+           margin:4px;
+           width:100%;
+       }
+
+#movies-form
+{
+    text-align: center;
+}
+.search-input
+{
+    width:80%;
+    margin-left: 20px;
+}
+
+.flex-container {
+  flex-direction: column;
+}
+}
+
+
