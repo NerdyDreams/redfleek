@@ -18,7 +18,7 @@ function Menu(){
         <a class="nav-link" href="#">Offshore</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="https://secure-escarpment-13328.herokuapp.com/">Contact Us</a>
         </li>
       </ul>
 )}
